@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppPreferences</string>
+    <string-array name="notification_options">
+        <item>Voice</item>
+        <item>Vibration</item>
+        <item>Message Popup</item>
+    </string-array>
+    <string-array name="notification_options_values">
+        <item>Voice</item>
+        <item>Vibration</item>
+        <item>Message Popup</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General">
+
+        <ListPreference
+            android:title="Notifications"
+            android:summary="When message is received notify me via:"
+            android:key="key_notifications"
+            android:entries="@array/notification_options"
+            android:entryValues="@array/notification_options_values"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Educational Information">
+
+        <PreferenceScreen
+            android:title="Leave information about education >"
+            android:summary="tap to switch to info screen" >
+
+            <EditTextPreference
+                android:title="University name"
+                android:summary="Enter university name"
+                android:key="uni_name"/>
+
+            <EditTextPreference
+                android:title="University address"
+                android:summary="Enter university address"
+                android:key="uni_address"/>
+
+        </PreferenceScreen>
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
