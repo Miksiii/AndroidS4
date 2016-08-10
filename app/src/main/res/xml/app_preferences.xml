@@ -22,12 +22,21 @@
             <EditTextPreference
                 android:title="University name"
                 android:summary="Enter university name"
-                android:key="uni_name"/>
+                android:key="key_uni_name"/>
 
             <EditTextPreference
                 android:title="University address"
                 android:summary="Enter university address"
-                android:key="uni_address"/>
+                android:key="key_uni_address"/>
+
+            <preferences.metropolitan.fit.rs.apppreferences.DatePreferenceDialog
+                android:title="Choose Date"
+                android:key="key_date"/>
+
+            <preferences.metropolitan.fit.rs.apppreferences.TimePreferenceDialog
+                android:title="Choose Time"
+                android:key="key_time"/>
+
 
         </PreferenceScreen>
 
